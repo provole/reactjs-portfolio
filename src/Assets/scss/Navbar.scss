@@ -1,0 +1,85 @@
+.navigation{
+  background: #090909;
+  max-width: 65px;
+  width: 65px;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  &__logo{
+      text-align: center;
+      padding: 20px 10px;
+      background: #000;
+      img{
+          width: 45px;
+      }
+  }
+  &__links{
+    ul{
+      list-style: none;
+      text-align: center;
+      li{
+        padding: 13px 0;
+        a{
+          color: #a5a5a5;
+          font-size: 22px;
+          text-decoration: none;
+          transition: all 3s;
+          &:hover{
+            transition: all 3s;
+          }
+          &:hover:after{
+            text-transform: uppercase;
+            text-align: center;
+            font-family: "Muli", Arial, Helvetica, sans-serif;
+            font-weight: 300;
+            font-size: 11px;
+            color: #f3605b;
+            transition: all 3s;
+            
+          }
+          &:hover{
+            i{
+              display: none;
+            }
+          }
+        }
+        .link-home{
+          &:hover:after{
+            content: 'home';
+          }
+        }
+        .link-portfolio{
+          &:hover:after{
+            content: 'my work';
+          }
+        }
+        .link-about{
+          &:hover:after{
+            content: 'about';
+          }
+        }
+      }
+    }
+  }
+  &__social{
+    align-self: center;
+    padding: 0 0 10px 0;
+    ul{
+      list-style: none;
+      text-align: center;
+      margin: 0;
+      li{
+        color: #fff;
+        padding: 5px 0;
+        a{
+          color: #a9a9a9;
+        }
+      }
+      img{
+        width: 45px;
+      }
+    }
+  }
+}
