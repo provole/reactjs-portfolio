@@ -19,7 +19,16 @@ p{
 }
 
 
-.about-me{
+#tsparticles__{
+    height: 100vh;
+    position: absolute;
+    left:0;right:0;
+  #tsparticles{
+    height: 100%;
+  }
+}
+
+.about_me{
     position: absolute;
     left: 10%;
     top: 50%;
@@ -32,6 +41,14 @@ p{
     flex-direction: column;
     align-items: flex-start;
     max-height: 90%;
+    @media screen and (max-width: 767px){
+        padding: 40px 20px;
+        top: initial;
+        transform: initial;
+        width: 100%;
+        left: initial;right: initial;
+        max-height: initial;
+    }
     h1{
         color: $BrandFont;
         line-height: 1;
@@ -40,6 +57,9 @@ p{
         margin: 0 0 45px 0;
         text-align: left;
         font-family: 'Nunito';
+        @media screen and (max-width: 767px){
+            font-size: 42px;
+        }
     }
     p{
         color: #fff;
@@ -48,7 +68,31 @@ p{
         margin: 0 0 30px 0;
         font-family: 'Nunito';
     }
-    .skill-box{
+    &--resume{
+        margin: 0 0 30px;
+        a{
+            font-size: 13px;
+            color: #ffffff;
+            border: 2px solid #f3605b;
+            border-bottom-right-radius: 6px;
+            display: inline-block;
+            padding: 10px 25px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            font-weight: 600;
+            @media screen and (max-width: 767px){
+                background: #f3605b;
+            }
+            &:hover{
+                background: #f3605b;
+                transition: all 0.3s ease;
+            }
+        }
+    }
+    &--skill-box{
+        @media screen and (max-width: 960px){
+            margin: 0 0 50px 0;
+        }
         h6{
             border: 1px solid #f9f9f9;
             display: inline-block;
@@ -60,43 +104,11 @@ p{
             font-size: 14px;
             border-bottom-right-radius: 6px;
             transition: all 0.3s ease;
+            font-weight: 500;
             &:hover{
                 background: #f3605b;
-                transition: all 0.3s ease;
+                transition: all 0.3s ease;text-shadow: 1px 2px 4px rgba(150, 150, 150, 1);
             }
         }
     }
-    .resume{
-        margin: 0 0 30px;
-        a{
-            font-size: 13px;
-            color: #ffffff;
-            border: 2px solid #f3605b;
-            border-bottom-right-radius: 6px;
-            display: inline-block;
-            padding: 10px 25px;
-            text-decoration: none;
-            transition: all 0.3s ease;
-            &:hover{
-                background: #f3605b;
-                transition: all 0.3s ease;
-            }
-        }
-    }
-}
-
-.line-random {
-    position: fixed;
-    z-index: -1;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-.line-random .line {
-    position: absolute;
-    height: 2px;
-    width: 0%;
-    background-color: #c79f5b;
-    overflow: hidden;
 }

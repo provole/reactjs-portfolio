@@ -5,40 +5,28 @@ import Particles from 'react-particles-js';
 export default function Products() {
   return (
     <div>
-        <Particles
-        params={{
-            "particles": {
-                "number": {
-                    "value": 50
+        <div id="tsparticles__">
+            <Particles
+            params={{
+                "particles": {
+                    "number": {
+                        "value": 50
+                    },
+                    "size": {
+                        "value": 3
+                    }
                 },
-                "size": {
-                    "value": 3
-                }
-            },
-            "interactivity": {
-                "events": {
-                    "onhover": {
-                        "enable": true,
-                        "mode": "repulse"
+                "interactivity": {
+                    "events": {
+                        "onhover": {
+                            "enable": true,
+                            "mode": "repulse"
+                        }
                     }
                 }
-            }
-        }} />
-        <div className="selectThis">
-            <div className="line-random">
-                <div className="line"></div>
-                <div className="line"></div>
-                <div className="line"></div>
-                <div className="line"></div>
-                <div className="line"></div>
-                <div className="line"></div>
-                <div className="line"></div>
-                <div className="line"></div>
-                <div className="line"></div>
-                <div className="line"></div>
-            </div>
+            }} />
         </div>
-        <div className="about-me">
+        <div className="about_me">
             <h1>About me.</h1>
             <p>
                 I am an ambitious and determined web developer who specialises in building intuitive websites and strives to please the client's needs on time. I hold a Bachelors degree in Web Technologies from the University of Huddersfield and currently work full-time as a Front End Developer with 5+ years of agency experience. <br /><br />
@@ -46,13 +34,13 @@ export default function Products() {
                 Looking for a position where I can work with like-minded individuals and advance my skills in development.<br /><br />
 
             </p>
-            <div className="resume">
+            <div className="about_me--resume">
                 <a href="">DOWNLOAD RESUME AS A PDF FORMAT</a>
             </div>
             <p>
                 Skills:
             </p>
-            <div className="skill-box">
+            <div className="about_me--skill-box">
                 <h6>HTML5</h6>
                 <h6>CSS3</h6>
                 <h6>SASS</h6>

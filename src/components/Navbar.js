@@ -26,43 +26,6 @@ function Navbar() {
 
   return (
      <>
-      {/* <nav className='navbar'>
-        <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            TRVL
-            <i className='fab fa-typo3' />
-          </Link>
-          <div className='menu-icon' onClick={handleClick}>
-            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-          </div>
-          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                Home
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
-                to='/services'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Services
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
-                to='/products'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Products
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </nav> */}
-    
     <div>
         <div className="navigation">
             <div className="navigation__logo">
@@ -102,7 +65,7 @@ function Navbar() {
                       </Link>
                   </li>
                   <li>
-                      <a target="_blank" href="https://reactjs.org/" to='/' className='nav-links'>
+                      <a title="Made with ReactJS" target="_blank" href="https://reactjs.org/" to='/' className='nav-links'>
                         <img src={"./images/logo.svg"} />
                       </a>
                   </li>
