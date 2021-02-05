@@ -23,6 +23,7 @@ p{
     height: 100vh;
     position: absolute;
     left:0;right:0;
+    z-index: -2;
   #tsparticles{
     height: 100%;
   }
@@ -42,7 +43,7 @@ p{
     align-items: flex-start;
     max-height: 90%;
     @media screen and (max-width: 767px){
-        padding: 40px 20px;
+        padding: 40px 20px 85px;
         top: initial;
         transform: initial;
         width: 100%;
@@ -89,9 +90,10 @@ p{
             }
         }
     }
-    &--skill-box{
+    &--skillset{
+        display: flex;
         @media screen and (max-width: 960px){
-            margin: 0 0 50px 0;
+            display: block;
         }
         h6{
             border: 1px solid #f9f9f9;
@@ -105,9 +107,70 @@ p{
             border-bottom-right-radius: 6px;
             transition: all 0.3s ease;
             font-weight: 500;
-            &:hover{
-                background: #f3605b;
-                transition: all 0.3s ease;text-shadow: 1px 2px 4px rgba(150, 150, 150, 1);
+            &.in-progress{
+                border: 1px solid #ffcc00;
+                &:hover{
+                    .tooltiptext{
+                        visibility: visible;
+                    }
+                }
+            }
+            .tooltiptext{
+                visibility: hidden;
+                background-color: black;
+                color: #fff;
+                text-align: center;
+                border-radius: 6px;
+                padding: 5px 10px;
+                position: absolute;
+            }
+        }
+        .skill-box{
+            @media screen and (max-width: 960px){
+                margin: 0 0 30px 0;
+            }
+            
+        }
+    }
+}
+
+.my-work{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto;
+    @media screen and (max-width: 960px){
+        height: auto;
+        display: block;
+        width: 100%;
+    }
+    .gridbox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        @media screen and (max-width: 620px){
+            display: block;
+        }
+        &__item{
+            padding: 0 5px;
+            flex-basis: 25%;
+            margin: 0 0 10px 0;
+            @media screen and (max-width: 960px){
+                flex-basis: 50%;
+            }
+            @media screen and (max-width: 620px){
+                flex-basis: 100%;
+                padding: 0 10px;
+                &:first-child{
+                    margin-top: 10px;
+                }
+            }
+            img{
+                max-width: 100%;
+                min-width: 100%;
             }
         }
     }

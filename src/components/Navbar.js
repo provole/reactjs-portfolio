@@ -41,7 +41,7 @@ function Navbar() {
                       </Link>
                   </li>
                   <li className=''>
-                      <Link to='/services' className='nav-links link-portfolio'>
+                      <Link to='/work' className='nav-links link-portfolio'>
                           <i className='fa fa-eye' />
                       </Link>
                   </li>

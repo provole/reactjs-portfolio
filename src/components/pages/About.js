@@ -37,23 +37,36 @@ export default function Products() {
             <div className="about_me--resume">
                 <a href="">DOWNLOAD RESUME AS A PDF FORMAT</a>
             </div>
-            <p>
-                Skills:
-            </p>
-            <div className="about_me--skill-box">
-                <h6>HTML5</h6>
-                <h6>CSS3</h6>
-                <h6>SASS</h6>
-                <h6>JavaScript</h6>
-                <h6>jQuery</h6>
-                <h6>WordPress</h6>
-                <h6>Email Development</h6>
-                <h6>Version Control</h6>
-                <h6>Bootstrap 3/4</h6>
-                <h6>Gulp</h6>
-                <h6>Adobe Suite</h6>
-                <h6>SQL</h6>
-                <h6>PHP</h6>
+            <div className="about_me--skillset">
+                <div className="skill-box">
+                    <p>
+                        Skills:
+                    </p>
+                    <h6>HTML5</h6>
+                    <h6>CSS3</h6>
+                    <h6>SASS</h6>
+                    <h6>JavaScript</h6>
+                    <h6>jQuery</h6>
+                    <h6>WordPress</h6>
+                    <h6>Email Development</h6>
+                    <h6>Bootstrap 3/4</h6>
+                    <h6>Gulp</h6>
+                    <h6>SQL</h6>
+                    <h6>PHP</h6>
+                    <h6 class="in-progress">ReactJS<span className="tooltiptext">Work in Progress</span></h6>
+                </div>
+                <div className="tool-box">
+                    <p>
+                        Tools:
+                    </p>
+                    <h6>Version Control</h6>
+                    <h6>Adobe Suite</h6>
+                    <h6>Visual Studio Code</h6>
+                    <h6>Jira</h6>
+                    <h6>NPM</h6>
+                    <h6>GitHub/Bitbucket</h6>
+                    <h6>FreshDesk</h6>
+                </div>
             </div>
         </div>
     </div>
