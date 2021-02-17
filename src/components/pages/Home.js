@@ -28,6 +28,11 @@ function Home() {
                 }
             }} />
         </div>
+        <div className="home_page">
+            <h1>Hi,<br />I'm <span>Volen</span>.</h1>
+            <p><span>Front End Developer</span></p>
+            <p>Click here to view some of my <a href="/work">work</a> or learn more <a href="/about">about me</a>.</p>
+        </div>
     </div>
   );
 }

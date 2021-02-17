@@ -65,7 +65,8 @@ export default function Products() {
                     <h6>Jira</h6>
                     <h6>NPM</h6>
                     <h6>GitHub/Bitbucket</h6>
-                    <h6>FreshDesk</h6>
+                    <h6>Freshdesk</h6>
+                    <h6>Slack</h6>
                 </div>
             </div>
         </div>
