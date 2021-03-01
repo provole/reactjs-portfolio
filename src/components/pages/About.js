@@ -35,7 +35,7 @@ export default function Products() {
 
             </p>
             <div className="about_me--resume">
-                <a href="">DOWNLOAD RESUME AS A PDF FORMAT</a>
+                <a href="pdf/CV_Volen_Angelov.pdf" target="_blank">DOWNLOAD RESUME AS A PDF FORMAT</a>
             </div>
             <div className="about_me--skillset">
                 <div className="skill-box">

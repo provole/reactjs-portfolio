@@ -31,64 +31,64 @@ export default function Work() {
             <div className="gridbox">
                 <div className="gridbox__item">
                     <figure class="effect-layla">
-						<img src="https://tympanus.net/Development/HoverEffectIdeas/img/6.jpg" alt="img06"/>
+						<img src="images/epitome_digital.png" alt="img06"/>
 						<figcaption>
 							<h2>Epitome <br />Digital</h2>
-							<a href="https://epitome.digital/">View more</a>
+							<a href="https://epitome.digital/" target="_blank">View more</a>
 						</figcaption>			
 					</figure>
                 </div>
                 <div className="gridbox__item">
                     <figure class="effect-layla">
-						<img src="https://tympanus.net/Development/HoverEffectIdeas/img/26.jpg" alt="img06"/>
+						<img src="images/pragmatic_digital.png" alt="img06"/>
 						<figcaption>
 							<h2>Pragmatic <br />Digital</h2>
-							<a href="#">View more</a>
+							<a href="https://pragmaticdigital.co.uk/" target="_blank">View more</a>
 						</figcaption>			
 					</figure>
                 </div>
                 <div className="gridbox__item">
                     <figure class="effect-layla">
-						<img src="https://tympanus.net/Development/HoverEffectIdeas/img/24.jpg" alt="img06"/>
+						<img src="images/michelin.png" alt="img06"/>
 						<figcaption>
 							<h2>Michelin </h2>
-							<a href="https://marketing.michelin.co.uk/return_to_work/give-us-feedback.php">View more</a>
+							<a href="https://marketing.michelin.co.uk/return_to_work/give-us-feedback.php" target="_blank">View more</a>
 						</figcaption>			
 					</figure>
                 </div>
                 <div className="gridbox__item">
                     <figure class="effect-layla">
-						<img src="https://tympanus.net/Development/HoverEffectIdeas/img/23.jpg" alt="img06"/>
+						<img src="images/soampli.png" alt="img06"/>
 						<figcaption>
 							<h2>SoAmpli</h2>
-							<a href="https://www.soampli.com/">View more</a>
+							<a href="https://www.soampli.com/" target="_blank">View more</a>
 						</figcaption>			
 					</figure>
                 </div>
                 <div className="gridbox__item">
                     <figure class="effect-layla">
-						<img src="https://tympanus.net/Development/HoverEffectIdeas/img/22.jpg" alt="img06"/>
+						<img src="images/invulnerables.png" alt="img06"/>
+						<figcaption>
+							<h2>Invulnerables<br />Esports</h2>
+							<a href="http://invulesports.com/" target="_blank">View more</a>
+						</figcaption>			
+					</figure>
+                </div>
+                <div className="gridbox__item">
+                    <figure class="effect-layla">
+						<img src="images/force24.png" alt="img06"/>
 						<figcaption>
 							<h2>Force24 <br /> Tools</h2>
-							<a href="http://frontendstaging.force24.co.uk/tools/">View more</a>
+							<a href="http://frontendstaging.force24.co.uk/tools/" target="_blank">View more</a>
 						</figcaption>			
 					</figure>
                 </div>
                 <div className="gridbox__item">
                     <figure class="effect-layla">
-						<img src="https://tympanus.net/Development/HoverEffectIdeas/img/21.jpg" alt="img06"/>
+						<img src="images/trunarrative.jpg" alt="img06"/>
 						<figcaption>
 							<h2>TruNarrative</h2>
-							<a href="https://frontendstaging.force24.co.uk/trunarrative/">View more</a>
-						</figcaption>			
-					</figure>
-                </div>
-                <div className="gridbox__item">
-                    <figure class="effect-layla">
-						<img src="https://tympanus.net/Development/HoverEffectIdeas/img/20.jpg" alt="img06"/>
-						<figcaption>
-							<h2>PRAGMATIC <br /><span>DIGITAL</span></h2>
-							<a href="#">View more</a>
+							<a href="https://frontendstaging.force24.co.uk/trunarrative/" target="_blank">View more</a>
 						</figcaption>			
 					</figure>
                 </div>

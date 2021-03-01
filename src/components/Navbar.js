@@ -55,17 +55,17 @@ function Navbar() {
             <div className="navigation__social">
                 <ul>
                   <li className=''>
-                      <Link to='/' className='nav-links'>
+                      <a href="https://github.com/provole" className='nav-links' target="_blank">
                           <i className='fa fa-github' />
-                      </Link>
+                      </a>
                   </li>
                   <li className=''>
-                      <Link to='/' className='nav-links'>
+                      <a href="https://www.linkedin.com/in/volenangelov/" className='nav-links' target="_blank">
                           <i className='fa fa-linkedin' />
-                      </Link>
+                      </a>
                   </li>
                   <li>
-                      <a title="Made with ReactJS" target="_blank" href="https://reactjs.org/" to='/' className='nav-links'>
+                      <a title="Made with ReactJS" target="_blank" href="https://reactjs.org/" to='/' className='nav-links' target="_blank">
                         <img src={"./images/logo.svg"} />
                       </a>
                   </li>
